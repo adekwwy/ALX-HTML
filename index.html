@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Moja pierwsza strona internetowa</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<div id="menu">
+			<a href="#glowna">Strona główna</a>
+			<a href="#sklep">Sklep</a>
+			<a href="#oNas">O nas</a>
+			<a href="#galeria">Galeria</a>
+			<a href="#kontakt">Kontakt</a>
+		</div>
+		<p style="color:#4287f5">Jakis sobie tekst</p>
+		
+		<h1>Tytuł poziom 1</h1>
+		<h2>Tytuł poziom 1</h2>
+		<h3>Tytuł poziom 1</h3>
+		<h4>Tytuł poziom 1</h4>
+		
+		<p>LINK</p> <a href="https://www.allegro.pl">allegro.pl</a>
+		<br>
+		<img src="mercedes.jpeg" alt="tu powinien być obrazek Mercedesa" width=400 height=300>
+	
+		<p><b>Przykładowy mały i DUZY TEKST</b></p>
+		<p><u>Przykładowy mały i DUZY TEKST</u></p>
+		<p><i>Przykładowy mały i DUZY TEKST</i></p>
+		<p><s>Przykładowy mały i DUZY TEKST</s></p>
+		
+		<p><sub>2</sub>Jakis prosty tekst<sup>3</sup></p>
+		
+		</br>
+		</br>
+		
+		<table id="tab_samochod">
+			<tr>
+				<th>Index</th>
+				<th>Imie</th>
+				<th>Nazwisko</th>
+				<th>Klasa</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Adrian</td>
+				<td>Wojtkowski</td>
+				<td>3c</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Robert</td>
+				<td>Bąk</td>
+				<td>3c</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Piotr</td>
+				<td>Wrona</td>
+				<td>3c</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Kasia</td>
+				<td>Sobolewska</td>
+				<td>3c</td>
+			</tr>
+		</table>
+		</br>
+		<ul>
+			<li>Mercedes</li>
+			<li>Audi</li>
+			<li>Dodge</li>
+		</ul>
+		</br>
+		<ol>
+			<li>Mercedes</li>
+			<li>Audi</li>
+			<li>Dodge</li>
+		</ol>
+		</br>
+		<dl>
+			<dt>Zamek</dt>
+				<dd>Urządzenie do zamykania drzwi za pomocą klucza.</dd>
+				<dd>Zapięcie wszywane do odzieży.</dd>
+				<dd>Warowna budowla mieszkalna.</dd>
+			<dt>Auto</dt>
+			<dt>Samochód</dt>
+				<dd>Dwuśladowy pojazd mechaniczny napędzany silnikiem.</dd>
+		</dl>
+		
+		<div></div>
+		
+		</br>
+
+		<form action="mailto:twój_adres_poczty@domena" method="post" enctype="text/plain">
+			<div>
+				<!-- Podstawowe pole tekstowe -->
+				<input name="Imię">Podaj swoje imię<br>
+				<input name="Nazwisko">Podaj swoje nazwisko
+				<!-- Pole typu RADIO -->
+				<p>Podaj swoją płeć:</p>
+				<input type="radio" name="Płeć" value="Kobieta">Kobieta
+				<input type="radio" name="Płeć" value="Mężczyzna">Mężczyzna
+				<!-- Pole typu RADIO -->
+				<p>Ile masz lat?</p>
+				<input type="radio" name="Wiek" value="mniej niż 15">mniej niż 15<br>
+				<input type="radio" name="Wiek" value="15-19">15-19<br>
+				<input type="radio" name="Wiek" value="20-29">20-29<br>
+				<input type="radio" name="Wiek" value="30-39">30-39<br>
+				<input type="radio" name="Wiek" value="40-60">40-60<br>
+				<input type="radio" name="Wiek" value="więcej niż 60">więcej niż 60 
+				<!-- Pole typu CHECKBOX -->
+				<p>Jaką lubisz muzykę (możesz zaznaczyć więcej możliwości)?</p>
+				<input type="checkbox" name="Muzyka" value="Rock">Rock<br>
+				<input type="checkbox" name="Muzyka" value="Heavy Metal">Heavy Metal<br>
+				<input type="checkbox" name="Muzyka" value="Pop">Pop<br>
+				<input type="checkbox" name="Muzyka" value="Techno">Techno<br>
+				<input type="checkbox" name="Muzyka" value="Muzyka poważna">Muzyka poważna<br>
+				<input type="checkbox" name="Muzyka" value="Inna">Inna (podaj jaka):
+				<input name="Muzyka">
+				<!-- Lista rozwijalna (typ podstawowy) z zaznaczoną opcją domyślną -->
+				<p>Jakiej przeglądarki internetowej używasz?</p>
+				<select name="Przeglądarka">
+					<option selected>Chrome</option>
+					<option>Opera</option>
+					<option>Firefox</option>
+					<option>Edge</option>
+					<option>Inna</option>
+				</select>
+				<!-- Lista rozwijalna (typ rozszerzony) z zaznaczoną opcją domyślną i zmniejszoną wysokością -->
+				<p>Jakie znasz systemy operacyjne (możesz wybrać kilka opcji trzymając klawisz Ctrl)?</p>
+				<select name="System operacyjny" multiple size="3">
+					<option selected>Windows</option>
+					<option>DOS</option>
+					<option>Linux</option>
+					<option>Inny</option>
+				</select>
+				<!-- Pole komentarza (o powiększonych rozmiarach oraz z tekstem domyślnym) -->
+				<p>Podaj swój komentarz:</p>
+				<textarea name="Komentarz" cols="50" rows="10">Proszę, wpisz tutaj jakiś komentarz...</textarea>
+				<br><br><br>
+				<!-- Przycisk WYŚLIJ -->
+				<input type="submit" value="Wyślij formularz">
+				<!-- Przycisk WYCZYŚĆ DANE -->
+				<input type="reset" value="Wyczyść dane">
+			</div>
+		</form>
+		
+		<p> Slider </p>
+		
+		<div id="my-slider">
+			<div id="zdjecie">
+				<img src="merc1.jpg" style="width: 100%">
+			</div>
+			<div id="zdjecie">
+				<img src="merc2.jpg" style="width: 100%">
+			</div>
+			<div id="zdjecie">
+				<img src="merc3.jpg" style="width: 100%">
+			</div>
+			<a id="poprzedni" onlick="plus(-1,0)"> Poprzedni </a>
+			<a id="nastepny" onlick="plus(1,0)"> Następny </a>
+			
+		</div>
+		
+		<script>
+				window.onscroll = function() {scrollfixed()};
+			
+				function scrollfixed(){
+					if (document.body.scrollop > 20 || document.documentElement.scrollTop > 20) {
+						document.getElementById("menu").style.top = "0";
+					}else{
+						document.getElementById("menu").style.top = "-80px";
+					}
+				}
+			</script>
+			
+		<script>
+			let idx = [1,1];
+			let nazwa = ["my-slider", "my-slider"];
+			showSlide(1,0);
+			showSlide(1,1);
+			
+			function plus(n1, n2) {
+				showSlide(idx[n2] += n1, n2);
+			}
+			
+			function showSlide(n1, n2) {
+				let i; 
+				let x = document.getElementById(nazwa[n2]);
+				if (n1 > x.length) {
+					idx[n2] = 1;
+				}
+				if (n1 < 1) {
+					idx[n1] = x.length;
+				}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				x[idx[n2]-1].style.display = "block";
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#naglowek{
+	width: 100%;
+	float: left;
+	text-align: center;
+	height: 80px;
+	background-color: red;
+}
+
+#ocena{
+	width: 20%;
+	float: left;
+	height: 1000px;
+	background-color: green;
+}
+
+#prawaKolumna{
+	width: 80%;
+	float: left;
+	height: 1000px;
+	background-color: yellow;
+}
+
+#pom{
+	height: 950px;
+	background-color: blue;
+}
+
+#menu{
+	width: 15%;
+	height: 550px;
+	right: 0;
+	margin-top:-300px;
+	background-color: lightgray;
+	position: fixed;
+}
+
+#menu a{
+	display: block;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#menu a:hover{
+	color: black;
+}
+
+#lista a{
+	text-decoration: none;
+}
+
+#lista ul{
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display:flex;
+	list-style: none;
+	justify-content:center;
+}
+
+
+#lista li {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 130px;
+	text-decoration: none;
+	color: black;
+	padding: 15px 15px;
+	margin: 0px 1px 1px 0px;
+}
+
+#stopka{
+	width: 100%;
+	float: left;
+	text-align: center;
+	height: 50px;
+	background-color: red;
+}
