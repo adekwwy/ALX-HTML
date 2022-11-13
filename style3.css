@@ -83,3 +83,73 @@ body{
 	height: 50px;
 	background-color: red;
 }
+
+#menuRozwijane{
+	width:100%;
+	float:left;
+}
+
+#menuRozwijane ol {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  background-color:#FFF;
+}
+
+#menuRozwijane ol li {
+  float:left;
+  background-color:gray;
+  width:150px;
+  margin-left:1px;
+  height: 30px;
+}
+
+#menuRozwijane ol li:first-child {
+  margin-left:0;
+}
+
+#menuRozwijane ol a {
+  display:block;
+  color:black;
+  text-decoration:none;
+  padding:0 5px;
+}
+
+#menuRozwijane ol li a:hover {
+  color:#09C;
+}
+
+#menuRozwijane ol li:hover {
+  background-color:#EEE;
+}
+
+#menuRozwijane ol li:hover ul {
+  display:block;
+}
+
+#menuRozwijane ol li ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  display:none;
+}
+
+#menuRozwijane ol li ul li a {
+  border-top:1px solid #FFF;
+}
+
+#menuRozwijane ol li ul li {
+  background-color:#EEE;
+  position: relative;
+}
+
+#menuRozwijane ol li ul li:hover {
+  background-color:#DDD;
+}
+
+#menuRozwijane ol li ul li:hover a {
+  color:#09C;
+}
